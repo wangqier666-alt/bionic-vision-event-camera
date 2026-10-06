@@ -11,6 +11,18 @@
 
 > **事件相机能否代替 RGB 相机，为具身智能提供三维空间理解所需的信息？**
 
+## 核心实验结果
+
+同一室内场景下，事件流重建图像（E2VID）与 RGB 图像的对比验证：
+
+![RGB vs E2VID 四组对比](images/rgb-vs-e2vid-comparison.jpg)
+
+Aholo 大尺度场景重建（RGB 输入 vs E2VID 重建输出）：
+
+| RGB 图像输入 | E2VID 重建图像输入 |
+|---|---|
+| ![RGB输入](images/aholo-large-rgb-input.png) | ![E2VID输出](images/aholo-large-e2vid-output.png) |
+
 ## 研究内容
 
 | 模块 | 说明 |
